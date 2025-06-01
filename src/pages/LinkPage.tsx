@@ -81,11 +81,11 @@ export const LinkPage: React.FC = () => {
 
             <div className="space-y-6">
               <div className="flex justify-center">
-                {/* <TurnstileWidget
+                <TurnstileWidget
                   onSuccess={handleCaptchaVerify}
                   onError={() => console.error("Erro no captcha")}
                   onExpired={() => setIsVerified(false)}
-                /> */}
+                />
               </div>
 
               {isVerified && (
