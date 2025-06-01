@@ -30,13 +30,23 @@
     "visible": true
   },
   {
+    "slug": "github",
+    "name": "Comunidade no GitHub",
+    "link": "https://github.com/whitestonedev",
+    "image_link": "https://statics.whitestonedev.com.br/icons/icone-github-violet.png",
+    "icon_name": "",
+    "icon_link": "https://statics.whitestonedev.com.br/icons/icone-github-violet.png",
+    "position": 3,
+    "visible": true
+  },
+  {
     "slug": "calendario-tech",
     "name": "Calendario.tech",
     "link": "https://calendario.tech",
     "image_link": "https://statics.whitestonedev.com.br/calendario-tech/logotipo_white.png",
     "icon_name": "",
     "icon_link": "https://statics.whitestonedev.com.br/calendario-tech/logotipo_icon.png",
-    "position": 3,
+    "position": 4,
     "visible": true
   }
 ]
