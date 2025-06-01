@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "website",
+    "name": "Site Oficial",
+    "link": "https://whitestonedev.com.br",
+    "image_link": "https://statics.whitestonedev.com.br/site/wsd_logo.png",
+    "icon_name": "MessageCircle",
+    "icon_link": "https://statics.whitestonedev.com.br/site/logo_outline.png",
+    "position": 0,
+    "visible": true
+  },
+  {
+    "slug": "whatsapp",
+    "name": "Whatsapp",
+    "link": "https://chat.whatsapp.com/LiB7z1n1Ahe3Ts0YD5uPoe",
+    "image_link": "https://whitestonedev.com.br/img/site/logo_blue.svg",
+    "icon_name": "MessageCircle",
+    "icon_link": "https://statics.whitestonedev.com.br/icons/whatsapp.png",
+    "position": 1,
+    "visible": true
+  },
+  {
+    "slug": "youtube",
+    "name": "Youtube",
+    "link": "https://www.youtube.com/@whiteStone_dev",
+    "image_link": "https://whitestonedev.com.br/img/site/logo_blue.svg",
+    "icon_name": "Youtube",
+    "icon_link": "https://statics.whitestonedev.com.br/icons/youtube.png",
+    "position": 2,
+    "visible": true
+  },
+  {
+    "slug": "calendario-tech",
+    "name": "Calendario.tech",
+    "link": "https://calendario.tech",
+    "image_link": "https://statics.whitestonedev.com.br/calendario-tech/logotipo_white.png",
+    "icon_name": "",
+    "icon_link": "https://statics.whitestonedev.com.br/calendario-tech/logotipo_icon.png",
+    "position": 3,
+    "visible": true
+  }
+]
