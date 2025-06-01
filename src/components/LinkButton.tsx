@@ -41,9 +41,15 @@ export const LinkButton: React.FC<LinkButtonProps> = ({
     setIsVerified(true);
     trackClick(slug);
 
+    // Cria um link temporário e simula um clique
+    const tempLink = document.createElement("a");
+    tempLink.href = link;
+    tempLink.target = "_blank";
+    tempLink.rel = "noopener noreferrer";
+
     // Simula validação do token e redireciona
     setTimeout(() => {
-      window.open(link, "_blank");
+      tempLink.click();
       setIsExpanded(false);
       setIsVerified(false);
     }, 500);
