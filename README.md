@@ -21,8 +21,8 @@ Um projeto simples e eficiente para gerenciamento de links, com sistema de prote
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/link-vault-beams.git
-cd link-vault-beams
+git clone https://github.com/whitestonedev/link-vault.git
+cd link-vault
 ```
 
 2. Copie o arquivo de exemplo das variáveis de ambiente:
