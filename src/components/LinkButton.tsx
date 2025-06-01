@@ -9,7 +9,7 @@ interface LinkButtonProps {
   name: string;
   link: string;
   imageLink: string;
-  iconName?: keyof typeof Icons;
+  iconName?: string;
   iconLink?: string;
 }
 

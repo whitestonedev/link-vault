@@ -10,7 +10,7 @@ interface LinkData {
   name: string;
   link: string;
   image_link: string;
-  icon_name?: keyof typeof Icons;
+  icon_name?: string;
   icon_link?: string;
   position: number;
   visible: boolean;
@@ -75,10 +75,21 @@ export const Home: React.FC = () => {
 
           {/* Footer */}
           <div className="mt-12 pt-8 border-t border-white/10">
-            <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} WhiteStone Dev. Todos os direitos
-              reservados.
-            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="https://github.com/whitestonedev/link-vault"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-500 hover:text-gray-400 transition-colors inline-flex items-center gap-1"
+              >
+                <Icons.Github className="w-5 h-5" />
+                Veja este projeto no GitHub
+              </a>
+              <p className="text-sm text-gray-400 text-center">
+                © {new Date().getFullYear()} WhiteStone Dev. Todos os direitos
+                reservados.
+              </p>
+            </div>
           </div>
         </div>
       </div>
