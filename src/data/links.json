@@ -48,5 +48,15 @@
     "icon_link": "https://statics.whitestonedev.com.br/calendario-tech/logotipo_icon.png",
     "position": 4,
     "visible": true
-  }
+  }, 
+{
+  "slug": "insta",
+  "name": "Instagram",
+  "link": "https://instagram.com/whitestonedev",
+  "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+  "icon_name": "Instagram",
+  "icon_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+  "position": 5,
+  "visible": true
+}
 ]
